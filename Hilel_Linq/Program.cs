@@ -45,7 +45,7 @@ class Program
         IEnumerable<Book> books = GetDataFromJson<Book>("books.json");
         LinqTasks.GetNewFantasticBooks(books);
         
-        // Task 6
+        // Task 7
         IEnumerable<Customer> customers = GetDataFromJson<Customer>("customers.json");
         LinqTasks.GetCustomersWithExpensiveOrder(customers);
     }
