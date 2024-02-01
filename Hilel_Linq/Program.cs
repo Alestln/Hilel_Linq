@@ -9,7 +9,7 @@ class Program
     {
         // Task 1
         // Автор текста ChatGPT :)
-        LinqTasks.GetLinesStartsWith(new[]
+        /*LinqTasks.GetLinesStartsWith(new[]
         {
             "Алексей шел по улице, задумчиво нахмурив брови.",
             "Безмятежный вечер прогуливался вдоль аллей парка",
@@ -17,37 +17,37 @@ class Program
             "Вдоль асфальтовой дорожки пробегали автомобили.",
             "Астрономы изучали астероиды в бескрайнем космосе.",
             "Белые анютины глазки расцвели весной под окном."
-        });
+        });*/
 
         // Task 2
-        int[] firstArray = new int[Random.Shared.Next(10) + 1];
+        /*int[] firstArray = new int[Random.Shared.Next(10) + 1];
         int[] secondArray = new int[Random.Shared.Next(10) + 1];
 
         GenerateNumberArray(firstArray);
         GenerateNumberArray(secondArray);
         
-        LinqTasks.GetGeneralValues(firstArray, secondArray);
+        LinqTasks.GetGeneralValues(firstArray, secondArray);*/
         
         // Data in tasks 3-7 was generated on https://www.mockaroo.com/
         // Task 3
-        IEnumerable<Student> students = GetDataFromJson<Student>("students.json");
-        LinqTasks.GetStudentsWithMaxMark(students);
+        /*IEnumerable<Student> students = GetDataFromJson<Student>("students.json");
+        LinqTasks.GetStudentsWithMaxMark(students);*/
         
         // Task 4
-        IEnumerable<Product> products = GetDataFromJson<Product>("products.json");
-        LinqTasks.GetAveragePriceOfCategory(products);
+        /*IEnumerable<Product> products = GetDataFromJson<Product>("products.json");
+        LinqTasks.GetAveragePriceOfCategory(products);*/
         
         // Task 5
-        IEnumerable<Employee> employees = GetDataFromJson<Employee>("employees.json");
-        LinqTasks.GetOldEmployees(employees);
+        /*IEnumerable<Employee> employees = GetDataFromJson<Employee>("employees.json");
+        LinqTasks.GetOldEmployees(employees);*/
         
         // Task 6
-        IEnumerable<Book> books = GetDataFromJson<Book>("books.json");
-        LinqTasks.GetNewFantasticBooks(books);
+        /*IEnumerable<Book> books = GetDataFromJson<Book>("books.json");
+        LinqTasks.GetNewFantasticBooks(books);*/
         
         // Task 7
-        IEnumerable<Customer> customers = GetDataFromJson<Customer>("customers.json");
-        LinqTasks.GetCustomersWithExpensiveOrder(customers);
+        /*IEnumerable<Customer> customers = GetDataFromJson<Customer>("customers.json");
+        LinqTasks.GetCustomersWithExpensiveOrder(customers);*/
     }
 
     private static void GenerateNumberArray(int[] array)
